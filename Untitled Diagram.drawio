@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
   <diagram name="Page-1" id="BPko7VEiYdoX2oJ_lSy0">
-    <mxGraphModel dx="1234" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1763" dy="1177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,11 @@
         <mxCell id="CHIM27y06WXxc17JIMbP-2" value="User Device 102&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="150" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="CHIM27y06WXxc17JIMbP-6" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="425" y="290" width="80" height="80" as="geometry" />
+        <mxCell id="CHIM27y06WXxc17JIMbP-9" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="220" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-6" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="CHIM27y06WXxc17JIMbP-9">
+          <mxGeometry x="140" y="130" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
