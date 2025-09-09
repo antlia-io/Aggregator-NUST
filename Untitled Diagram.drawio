@@ -52,6 +52,12 @@
             <mxPoint x="250" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-24" value="Route Certificate&lt;div&gt;124&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-25;" vertex="1" parent="1">
+          <mxGeometry x="270" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-25" value="Order Intent 104" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
