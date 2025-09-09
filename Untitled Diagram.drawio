@@ -1,17 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
   <diagram name="Page-1" id="BPko7VEiYdoX2oJ_lSy0">
-    <mxGraphModel dx="1073" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1645" dy="1099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CHIM27y06WXxc17JIMbP-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="140" width="30" height="60" as="geometry" />
+          <mxGeometry x="175" y="70" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CHIM27y06WXxc17JIMbP-2" value="User Device 102&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="150" width="100" height="70" as="geometry" />
+          <mxGeometry x="140" y="190" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="CHIM27y06WXxc17JIMbP-9" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="320" width="300" height="250" as="geometry" />
+          <mxGeometry x="275" y="360" width="300" height="250" as="geometry" />
         </mxCell>
         <mxCell id="CHIM27y06WXxc17JIMbP-14" value="Epoc Snapshots&lt;div&gt;134&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="CHIM27y06WXxc17JIMbP-9">
           <mxGeometry x="11.600000000000023" y="52.3" width="80" height="80" as="geometry" />
@@ -42,21 +42,152 @@
         </mxCell>
         <mxCell id="CHIM27y06WXxc17JIMbP-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.013;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CHIM27y06WXxc17JIMbP-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="250" as="sourcePoint" />
-            <mxPoint x="280" y="200" as="targetPoint" />
+            <mxPoint x="230" y="290" as="sourcePoint" />
+            <mxPoint x="280" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CHIM27y06WXxc17JIMbP-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.103;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CHIM27y06WXxc17JIMbP-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="220" as="sourcePoint" />
-            <mxPoint x="250" y="220" as="targetPoint" />
+            <mxPoint x="330" y="260" as="sourcePoint" />
+            <mxPoint x="250" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CHIM27y06WXxc17JIMbP-24" value="Route Certificate&lt;div&gt;124&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-25;" vertex="1" parent="1">
-          <mxGeometry x="270" y="240" width="60" height="30" as="geometry" />
+          <mxGeometry x="270" y="280" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CHIM27y06WXxc17JIMbP-25" value="Order Intent 104" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-15;" vertex="1" parent="1">
-          <mxGeometry x="190" y="270" width="60" height="30" as="geometry" />
+          <mxGeometry x="190" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-26" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Service_Bus_Relay.svg;" vertex="1" parent="1">
+          <mxGeometry x="670" y="230" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-27" value="&lt;div&gt;Private Relay&lt;/div&gt;&lt;div&gt;150&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="689.99850753721" y="170.00316465777075" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CHIM27y06WXxc17JIMbP-29" target="CHIM27y06WXxc17JIMbP-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="360" as="sourcePoint" />
+            <mxPoint x="620" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CHIM27y06WXxc17JIMbP-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="360" as="sourcePoint" />
+            <mxPoint x="670" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-29" value="Route Certificate&lt;div&gt;124&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-25;" vertex="1" parent="1">
+          <mxGeometry x="579.99850753721" y="300.00316465777075" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-42" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="660" y="430" width="99" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-39" value="Onchain&#xa; Orchestrators&#xa;110" style="shape=rect;fillColor=#A56EFF;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="681" y="460" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-40" value="" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.ibm-watsonx--orchestrate" vertex="1" parent="CHIM27y06WXxc17JIMbP-39">
+          <mxGeometry width="24" height="24" relative="1" as="geometry">
+            <mxPoint x="12" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.383;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CHIM27y06WXxc17JIMbP-44" target="CHIM27y06WXxc17JIMbP-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="580" as="sourcePoint" />
+            <mxPoint x="230" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.383;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CHIM27y06WXxc17JIMbP-26" target="CHIM27y06WXxc17JIMbP-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="708" y="333" as="sourcePoint" />
+            <mxPoint x="709" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-44" value="via private Relay&lt;div&gt;150&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="674.99850753721" y="370.00316465777075" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-46" value="DEXs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="710" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-47" value="AMMs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CHIM27y06WXxc17JIMbP-46">
+          <mxGeometry x="10" y="40" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-52" value="Liquidity sources&lt;div&gt;160a....160n&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CHIM27y06WXxc17JIMbP-46">
+          <mxGeometry x="10" y="80" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-53" value="Orderbooks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CHIM27y06WXxc17JIMbP-46">
+          <mxGeometry x="10" y="120" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-54" value="RFQ Venues" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CHIM27y06WXxc17JIMbP-46">
+          <mxGeometry x="10" y="160" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-58" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CHIM27y06WXxc17JIMbP-46" target="CHIM27y06WXxc17JIMbP-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="105" y="-160" as="sourcePoint" />
+            <mxPoint x="125" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="145" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="CHIM27y06WXxc17JIMbP-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="560" as="sourcePoint" />
+            <mxPoint x="610" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-56" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="CHIM27y06WXxc17JIMbP-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="556" as="sourcePoint" />
+            <mxPoint x="670" y="746" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.663;entryY=0.144;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CHIM27y06WXxc17JIMbP-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="560" as="sourcePoint" />
+            <mxPoint x="790" y="804" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-60" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/blockchain/Consortium.svg;" vertex="1" parent="1">
+          <mxGeometry x="354" y="730" width="143" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-61" value="&lt;div&gt;Blockchain Nodes 140&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="383" y="890" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-63" value="" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="756.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-64" value="Telemetry Service 130" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="736.5" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-62" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.onsmqtt_micro_message_queuing_telemetry_transport;" vertex="1" parent="CHIM27y06WXxc17JIMbP-64">
+          <mxGeometry x="72.55000000000001" y="40.700000000000045" width="54.900000000000006" height="39.300000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-66" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;width=0;startSize=5.453333333333333;" edge="1" parent="1" source="CHIM27y06WXxc17JIMbP-64" target="CHIM27y06WXxc17JIMbP-60">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="250" y="830" as="sourcePoint" />
+            <mxPoint x="350" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-69" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.042;entryY=0.559;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CHIM27y06WXxc17JIMbP-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="810" as="sourcePoint" />
+            <mxPoint x="300" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-70" value="&lt;div&gt;coupled&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-71" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.473;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CHIM27y06WXxc17JIMbP-64" target="CHIM27y06WXxc17JIMbP-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="680" as="sourcePoint" />
+            <mxPoint x="520" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CHIM27y06WXxc17JIMbP-72" value="&lt;div&gt;Telemetry Service&amp;nbsp;&lt;/div&gt;&lt;div&gt;130&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="650" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
